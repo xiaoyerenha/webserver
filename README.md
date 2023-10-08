@@ -6,5 +6,5 @@
 
 
 # 编译运行
-g++ *.cpp -I ../inc -lpthread
+g++ *.cpp -I ../inc -lpthread   
 ./a.out 10000
