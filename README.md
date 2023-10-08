@@ -8,3 +8,6 @@
 # 编译运行
 g++ *.cpp -I ../inc -lpthread   
 ./a.out 10000
+
+# 压力测试
+/webbench-1.5$ ./webbench -c 1000 -t 5 http://192.168.193.128:10000/index.html
